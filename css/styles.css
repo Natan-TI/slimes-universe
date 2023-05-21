@@ -1,0 +1,231 @@
+*{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300!important;
+}
+
+div a h1:hover{
+    color: #1A1A1A;
+}
+
+div nav div a:hover{
+    color: #1A1A1A!important;
+}
+
+ul li a:hover h3:hover{
+    color: #1A1A1A;
+}
+
+ul li a:hover h3{
+    color: #1A1A1A;
+}
+
+#lis {
+    padding-left: 50px;
+}
+
+.bg-img{
+    background-image: url("../assets/navbar.svg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    z-index: +3;
+}
+
+.navitens{
+    font-size: large;
+}
+
+.slimeHome{
+    margin-top: 150px;
+    width: 450px;
+    height: 450px;
+}
+
+.slimeHome2{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 510px;
+}
+
+.slimeHome3{
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 500px;
+    height: 510px;
+}
+
+.slimeText{
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #8F51DC!important;
+}
+
+body{
+    background-color: #1A1A1A;
+    padding-top: 0;
+}
+
+#subtext{
+    font-size: 30px;
+    color: #766E80;
+    padding-bottom: 40px;
+}
+
+#subtext2{
+    font-size: 28px;
+    color: #766E80;
+    padding-top: 20px;
+}
+
+#subtext3{
+    font-size: 28px;
+    color: #766E80;
+    padding-top: 20px;
+}
+
+.button-69 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: absolute;
+    font-size: 17px;
+    background: #333;
+    border: none;
+  }
+  
+  .button-69:hover {
+    letter-spacing: 0.25em;
+    background: #8F51DC!;
+    color: #8F51DC!important;
+    box-shadow: 0 0 45px #8F51DC!;
+    text-decoration: none!important;
+  }
+  
+  .button-69::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222222;
+  }
+  
+  .button-69 span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-69 i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+  
+  .button-69 i::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #8F51DC;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  .button-69:hover i::before {
+    width: 20px;
+    left: 20%;
+  }
+  
+  .button-69 i::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #8F51DC;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+  }
+  
+  .button-69:hover i::after {
+    width: 20px;
+    left: 80%;
+  }
+
+#textTitle{
+    color: #8F51DC;
+}
+
+a{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+a:hover{
+    color: #8F51DC!important;
+}
+
+.nfts1{
+    width: 450px;
+    height: 450px;
+}
+
+.nfts2{
+    width: 450px;
+    height: 450px;
+}
+
+#footer2{
+    background-image: url("../assets/footer2.svg");
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    position: inherit;
+    background-size: 100%;
+}
+
+#textfooter{
+    display: inline-block;
+}
+
+#imgGame{
+    display: flex;
+    position: inherit;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: none;
+}
+
+#logoNav{
+    background-image: url("../assets/logonessamerda.svg");
+    margin-top: 10px;
+    z-index: +5;
+    width: 120px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.space{
+    display: inline-block;
+    margin-top: 110px;
+}
+
+.space2{
+    margin-top: 110px;
+    display: inline-block;
+    margin-left: 350px;
+}
